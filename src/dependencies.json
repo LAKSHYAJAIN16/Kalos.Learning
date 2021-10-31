@@ -1,0 +1,5 @@
+{
+  "dependencies" : [
+    "ScottPlot","System.Buffers","System.Drawing.Common","System.Numerics.Vectors","System.Memmory"
+   ]
+}

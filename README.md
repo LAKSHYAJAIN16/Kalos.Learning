@@ -30,7 +30,7 @@ ML.Net is a complex tool which is best for more complex projects. But if you jus
 ### Logistic Regression
 ![lr](https://raw.githubusercontent.com/LAKSHYAJAIN16/assets/main/snap6.png)
 
-And that's scratching the surface.
+And that's just scratching the surface.
 
 ## Neural Network
 The Main Focus of `Kalos.Learning` is Neural Networks. We offer a **scalable, expandable and easy to use** way to implement Neural Networks, comprised of 4 elements :-

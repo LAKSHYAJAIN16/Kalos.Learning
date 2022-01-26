@@ -7,14 +7,14 @@ using Kalos.Learning.Layers;
 using Kalos.Learning.Datasets;
 using Kalos.Learning.Linq.Helpers;
 using Kalos.Learning.Linq.Graphs;
-using Kalos.Learning.Utils.KNN;
-using Kalos.Learning.Utils.SVM;
-using Kalos.Learning.Utils.KMeans;
-using Kalos.Learning.Utils.Perceptron;
-using Kalos.Learning.Utils.NaiveBayes;
-using Kalos.Learning.Utils.DecisionTree;
-using Kalos.Learning.Utils.LinearRegression;
-using Kalos.Learning.Utils.LogisticRegression;
+using Kalos.Learning.KNN;
+using Kalos.Learning.SVM;
+using Kalos.Learning.KMeans;
+using Kalos.Learning.Perceptron;
+using Kalos.Learning.NaiveBayes;
+using Kalos.Learning.DecisionTree;
+using Kalos.Learning.LinearRegression;
+using Kalos.Learning.LogisticRegression;
 using Kalos.Learning.Layers.ActivationLayers;
 
 namespace Kalos.Learning.Tests
@@ -26,7 +26,7 @@ namespace Kalos.Learning.Tests
             //Iris_KMeans();
             //XOR_KNN();
             //Bulgarian_Economy_LinearRegression();
-            Iris_LogisticRegression();
+            // Iris_LogisticRegression();
             //Text_NaiveBayes();
             //NeuralNetwork();
             //Iris_Perceptron();

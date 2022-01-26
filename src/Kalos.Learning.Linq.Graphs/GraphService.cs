@@ -7,6 +7,7 @@ namespace Kalos.Learning.Linq.Graphs
     public class GraphService
     {
         public const int NumberOfNonDataColumns = 2;
+        
         public static string PlotLineGraph(double[] data, Options options = null)
         {
             //Check for Options

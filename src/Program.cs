@@ -158,15 +158,12 @@ namespace Kalos.Learning.Tests
         static void Iris_LogisticRegression()
         {
             LogisticRegressor f = new LogisticRegressor();
-            Console.WriteLine("--Raw Data--");
             var data = DataSets.Iris_2DLogisticRegression();
-            KMeans.ShowData(data.Item1, 1, true, true);
 
-            Console.WriteLine("\nEnter Iterations(Epochs Basically)");
+            Console.WriteLine("\nEnter Epochs");
             int epochs = int.Parse(Console.ReadLine());
             f.Fit(data.Item1, data.Item2, 0.01, epochs, 0.2, step_for_verbose: 100);
-
-            Console.WriteLine("-----------------------------");
+            
             Console.WriteLine("Enter 1st Value");
             double d1 = double.Parse(Console.ReadLine());
             Console.WriteLine("Enter 2ndValue");
@@ -267,13 +264,6 @@ namespace Kalos.Learning.Tests
             var data = DataSets.Iris_DecisionTree();
             double[][] dataX = data.Item1;
             int[] dataY = data.Item2;
-            Console.WriteLine("Iris 30-item subset looks like: ");
-            Console.WriteLine("5.1, 3.5, 1.4, 0.2 -> 0");
-            Console.WriteLine("7.0, 3.2, 4.7, 1.4 -> 1");
-            Console.WriteLine("6.3, 3.3, 6.0, 2.5 -> 2");
-            Console.WriteLine(" . . . ");
-
-            Console.WriteLine("\nBuilding 7-node 3-class decision tree");
             DecisionTreeClassifier dt = new DecisionTreeClassifier(7, 3);
             dt.BuildTree(dataX, dataY);
             dt.Show();

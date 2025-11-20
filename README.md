@@ -11,7 +11,7 @@ Kalos is _simple_, _easy to install_ and _easy to use_
 
 - The Framework is scalable and users can create their own models with the specified Interfaces.
 
-- Is Very thorough and performant.Beats Python's performance EVERYDAY OF THE WEEK.
+- Is very thorough. Much quicker than ML.net
 
 - Comes with example datasets and tests.
 

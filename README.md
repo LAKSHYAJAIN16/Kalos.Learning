@@ -3,7 +3,8 @@ A Machine Learning Framework written in pure c#
 
 ## But..Why?
 C# already has `ML.Net`, why would you need another C# ML Framework?\
-ML.Net is a complex tool which is best for more complex projects. But if you just want to get your hands dirty and make a simple sentiment analysis project, you're gonna spend half your time watching tutorials and installing the **trillion dependencies** ML.Net has.
+ML.Net is a complex tool which is best for more complex projects. But if you just want to get your hands dirty and make a simple sentiment analysis project, you're going to spend all your time watching tutorials and installing the **trillion dependencies** ML.Net has.
+Kalos is _simple_, _easy to install_ and _easy to use_
 
 ## Features
 - Includes Popular Machine Learning Algorithms like Linear Regression, SVM, Decision Trees and much more.
